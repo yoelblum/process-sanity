@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sanitycheck (0.0.1)
+    sanitycheck (0.0.2)
       rails (~> 4.2.4)
 
 GEM
