@@ -1,0 +1,2 @@
+module Sanitycheck
+end
