@@ -1,4 +1,4 @@
-SanityCheck.setup do |processes|
+ProcessSanity.setup do |processes|
 
 	#array of your environment's processes to check against
 	#for example:

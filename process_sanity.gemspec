@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "sanitycheck/version"
+require "process_sanity/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "sanitycheck"
-  s.version     = Sanitycheck::VERSION
+  s.name        = "process-sanity"
+  s.version     = ProcessSanity::VERSION
   s.authors     = ["sxjoel"]
   s.email       = ["joel@senexx.com"]
   s.homepage    = ""

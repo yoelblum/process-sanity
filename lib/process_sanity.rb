@@ -1,4 +1,4 @@
-module SanityCheck
+module ProcessSanity
 
   class Processes
     attr_accessor :names, :is_aggressive

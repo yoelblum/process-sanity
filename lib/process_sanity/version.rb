@@ -1,3 +1,3 @@
-module Sanitycheck
+module ProcessSanity
   VERSION = "0.0.4"
 end

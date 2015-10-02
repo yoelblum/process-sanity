@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    sanitycheck (0.0.3)
-      rails (~> 4.2.4)
+    process-sanity (0.0.4)
+      rails
 
 GEM
   remote: https://rubygems.org/
@@ -102,7 +102,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  sanitycheck!
+  process-sanity!
   sqlite3
 
 BUNDLED WITH
