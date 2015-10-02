@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     process_sanity (0.0.1)
-      rails (~> 4.2.4)
+      rails
 
 GEM
   remote: https://rubygems.org/
