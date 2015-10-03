@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    process_sanity (0.0.1)
+    process-sanity (0.0.1)
       rails
 
 GEM
@@ -101,7 +101,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  process_sanity!
+  process-sanity!
 
 BUNDLED WITH
    1.10.6
