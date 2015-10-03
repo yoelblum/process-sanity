@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.version     = ProcessSanity::VERSION
   s.authors     = ["sxjoel"]
   s.email       = ["joel@senexx.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ProcessSanity."
-  s.description = "TODO: Description of ProcessSanity."
+  s.homepage    = "https://github.com/yoelblum/process-sanity"
+  s.summary     = "Make sure all your processes(resque, redis etc) are running when your start Rails server"
+  s.description = "Process Sanity lets you list all the processes your app depends on and makes sure they are running when you start your Rails server."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails"
-  
+
 end

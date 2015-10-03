@@ -1,7 +1,7 @@
 .bundle/
 log/*.log
 pkg/
-.idea
+.idea/
 .idea/*
 idea/*
 test/dummy/db/*.sqlite3
