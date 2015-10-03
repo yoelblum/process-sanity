@@ -1,18 +1,26 @@
 
-# process-sanity
+# Process-Sanity
 
 Ever experienced silly bugs\behavior because you forgot to run Resque or Sidekiq or Redis?
 
-Process Sanity is a simple solution for a simple problem: 
-Simply list all your application's process dependencies and let process-sanity check for them each time you start your server.
-If a process is missing you will get a warning in the console (or alternatively you can choose to turn off the server if you want
-something more aggressive)
+With Process-Sanity, simply list all your application's process dependencies and let process-sanity check for them each time you start your server.
 
-Usage: 
+#Installation
 
-1) Add to Gemfile and bundle install
+1) Add **'process-sanity'** to Gemfile and **bundle install**
 
-2) rails generate sanitycheck
+2) from your rails dir run: **rails generate process_sanity**
 
-3) In the initialization file created at step #2, simply add the names of the processes you want checked on server start
+3) In **process_sanity.rb** (the initialization file created at step #2), simply add the names of the processes you want checked on server start, for example:
+
+```
+#process_sanity.rb
+processes.names = ["sidekiq", "redis"]  #add whatever other process you application is dependent on
+```
+
+By default Process Sanity will log to your console on Rails server start if any process isn't running. You can choose to close the server in such a case by specifing: 
+
+`processes.is_aggressive = true`
+
+
 
