@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    process-sanity (0.0.2)
+    process-sanity (0.0.3)
       rails
 
 GEM

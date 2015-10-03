@@ -1,3 +1,4 @@
+require 'process_sanity'
 ProcessSanity.setup do |processes|
 
   #array of your environment's processes to check against
