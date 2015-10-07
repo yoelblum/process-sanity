@@ -18,7 +18,7 @@ With Process-Sanity, simply list all your application's process dependencies and
 processes.names = ["sidekiq", "redis"]  #add whatever other process you application is dependent on
 ```
 
-By default Process Sanity will log to your console on Rails server start if any process isn't running. You can choose to close the server in such a case by specifing: 
+By default Process Sanity will log to your console on Rails server start if any process isn't running, which is mostly good for development. If you need something more you can choose to close the server in case of missing process by specifying: 
 
 `processes.is_aggressive = true`
 
