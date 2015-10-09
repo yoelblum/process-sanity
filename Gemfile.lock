@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    process-sanity (0.0.6)
+    process-sanity (0.0.7)
       colorize
       rails
 

@@ -9,7 +9,7 @@ module ProcessSanity
       names.each do |process_name|
         id = system("pgrep -f #{process_name} > /dev/null 2>&1")
         unless id
-          puts "Process-Sanity: #{process_name} IS A DEPENDENCY YET IT IS NOT RUNNING!".colorize("red")
+          puts "Process-Sanity: #{process_name} IS A DEPENDENCY YET IT IS NOT RUNNING!".colorize(:green)
           errors.push(process_name)
         end
       end
