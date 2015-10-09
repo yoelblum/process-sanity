@@ -26,6 +26,7 @@ By default Process Sanity will log to your console on Rails server start if any 
 
 It is possible to be alerted via desktop notifications for missing processes: 
 1)Install the gem terminal notifier https://github.com/julienXX/terminal-notifier
+
 2) Uncomment config.desktop_notifications = true in process_sanity initializer
 
 #License
