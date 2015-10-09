@@ -2,7 +2,7 @@ require 'colorize'
 
 module ProcessSanity
   class Processes
-    attr_accessor :names, :is_aggressive, :desktop_notifications
+    attr_accessor :names, :is_aggressive, :desktop_notifications, :skip_run
 
     def check_processes
       errors = []
@@ -26,6 +26,6 @@ module ProcessSanity
   def self.setup
     initializer = Processes.new
     yield(initializer)
-    initializer.check_processes
+    initializer.check_processes if !initializer.skip_run
   end
 end
