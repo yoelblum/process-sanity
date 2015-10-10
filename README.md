@@ -7,7 +7,7 @@ With Process-Sanity, simply list all your application's process dependencies and
 
 #Installation
 
-1) Add **'process-sanity'** to Gemfile and **bundle install**
+1) Add `'gem 'process-sanity', '~> 0.0.71` to Gemfile and **bundle install**
 
 2) from your rails dir run: **rails generate process_sanity**
 
